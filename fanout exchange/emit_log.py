@@ -1,6 +1,7 @@
 import pika
 import sys
 
+# fanout exchange - wiadomości zostają wysłane do wszystkich podpiętych kolejek
 connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
 channel = connection.channel()
 
