@@ -1,0 +1,7 @@
+rabbitmqctl.bat help
+rabbitmq-diagnostics.bat help
+rabbitmq-plugins.bat help
+net stop RabbitMQ
+net start RabbitMQ
+rabbitmqctl.bat status
+rabbitmq-plugins enable rabbitmq_management
